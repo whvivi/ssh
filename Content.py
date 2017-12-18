@@ -6,4 +6,4 @@ lines = open('test1.txt').readlines()
 fp = open('test1.txt','w')  
 for s in lines:
           fp.write( s.replace('love','hate').replace('yes','no'))    
-fp.close()   
+fp.close()  
